@@ -124,6 +124,16 @@ header {
     cursor: pointer;
   }
   
+  #footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footer a {
+    text-decoration: none;
+    color: rgb(111, 111, 194);
+  }
   .slider .circle {
     top: calc(var(--circle-inset) * -1);
     left: 0;
