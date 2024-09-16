@@ -54,6 +54,7 @@ header {
 
     body {
         gap: 22px;
+        max-height: 100vh;
     }
 
     #nav, #footer {
@@ -61,7 +62,7 @@ header {
     }
 
     .card {
-        min-height: 80vh;
+        min-height: 60vh;
         width: 100%;
     }
 
@@ -70,11 +71,27 @@ header {
     }
 
     .card-img-top {
-        height: 200px;
+        height: 100px;
+        min-width: 100vw;
     }
 
     .btn-group button {
         max-width: 80px;
+    }
+
+    h3, p{
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .card-body {
+        display: flex;
+        justify-content: space-evenly;
     }
 
 }
